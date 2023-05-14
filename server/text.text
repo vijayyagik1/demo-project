@@ -1,0 +1,17 @@
+create two folder client and server ;
+npm init after that just press enter and press enter
+
+npm i express press nodemon socket.io cors (it just a library)
+
+create (Index.js) file 
+
+in packjson we have write ("start: nodemon index.js")
+
+open another terminal 
+now go to client folder using Cd client 
+
+npx create react app .
+
+npm install stock.io-client
+
+npm install react-scroll-to-bottom
