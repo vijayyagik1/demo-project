@@ -1,27 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RecoilRoot } from 'recoil';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { RecoilRoot } from 'recoil';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import User from './User';
-import User from './User';
-import Score from './Score';
+// import User from './User';
+// import Score from './Score';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RecoilRoot>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/User" element={<User />} />
-          <Route path="/Score" element={<Score />} />
-          {/* <App /> */}
-        </Routes>
-      </BrowserRouter>
-    </RecoilRoot>
+  <App/>
+   
+   
   </React.StrictMode>
 );
 

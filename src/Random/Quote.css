@@ -1,0 +1,42 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+}
+
+
+
+.quote-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+
+  background-color: transparent;
+  border-radius: 8px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+ 
+  justify-content: center;
+  position: relative;
+  top: 17rem;
+  left: 2rem;
+
+font-weight: 15;
+
+}
+
+.quote-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  
+}
+
+.quote-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+}
